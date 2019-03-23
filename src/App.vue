@@ -1,9 +1,6 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <nav-list></nav-list>
     <router-view/>
   </div>
 </template>
@@ -27,3 +24,11 @@
   }
 }
 </style>
+<script>
+import NavList from './components/navlist'
+export default {
+  components:{
+    NavList
+  }
+}
+</script>
