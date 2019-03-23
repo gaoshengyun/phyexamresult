@@ -14,7 +14,7 @@ export default {
      navlist:[
        {
          navName:'基础信息',
-         navPath:'/eventlist'
+         navPath:'/'
        },
        {
          navName:'血常规检查',
