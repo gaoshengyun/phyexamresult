@@ -17,7 +17,7 @@ export default {
          navPath:'/'
        },
        {
-         navName:'血常规检查',
+         navName:'生化检查',
          navPath:'/bloodcheck'
        },
        {
