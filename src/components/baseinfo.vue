@@ -144,7 +144,6 @@
     td{
       border: 1px solid #000;
       white-space:nowrap;
-      height: 40px;
       width: 100px;
     }
   }
