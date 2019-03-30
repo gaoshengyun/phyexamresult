@@ -4,6 +4,7 @@ import BaseInfo from './components/baseinfo'
 import BloodCheck from './components/bloodcheck'
 import Ultrasound from './components/ultrasound'
 import Xray from './components/xray'
+import Ecg from './components/ecg'
 
 
 Vue.use(Router)
@@ -25,6 +26,10 @@ export default new Router({
     {
       path:'/xray',
       component:Xray
+    },
+    {
+      path:'/ecg',
+      component:Ecg
     }
   ]
 })
