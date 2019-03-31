@@ -100,4 +100,79 @@ let result1 = [
   }    
 ]
 
-export {result1}
+let result2 = [
+  {
+    id: 1,
+    abbreviation: 'F-color',
+    name: '颜色',
+    result: '黄色',
+    hint: '',
+    reference: '',
+    units: ''
+  },
+  {
+    id: 2,
+    abbreviation: 'F-XZ',
+    name: '大便性状',
+    result: '有形软便',
+    hint: '',
+    reference: '',
+    units: ''
+  },
+  {
+    id: 3,
+    abbreviation: 'RBC',
+    name: '红细胞',
+    result: '-',
+    hint: '',
+    reference: '阴性(-)',
+    units: 'HP'
+  },
+  {
+    id: 4,
+    abbreviation: 'WBC',
+    name: '白细胞',
+    result: '-',
+    hint: '',
+    reference: '不见或偶见',
+    units: 'HP'
+  },
+  {
+    id: 5,
+    abbreviation: 'BTSXB',
+    name: '便吞噬细胞',
+    result: '-',
+    hint: '',
+    reference: '阴性(-)',
+    units: 'LP'
+  },
+  {
+    id: 6,
+    abbreviation: 'ZFL',
+    name: '脂肪滴',
+    result: '-',
+    hint: '',
+    reference: '阴性(-)',
+    units: 'HP'
+  },
+  {
+    id: 7,
+    abbreviation: 'OB',
+    name: '隐血',
+    result: '-',
+    hint: '',
+    reference: '阴性(-)',
+    units: ''
+  },
+  {
+    id: 8,
+    abbreviation: 'JSC',
+    name: '寄生虫',
+    result: '未检出',
+    hint: '',
+    reference: '',
+    units: ''
+  },
+]
+
+export {result1,result2}
