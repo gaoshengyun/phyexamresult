@@ -5,6 +5,7 @@ import BloodCheck from './components/bloodcheck'
 import Ultrasound from './components/ultrasound'
 import Xray from './components/xray'
 import Ecg from './components/ecg'
+import Immunoassay from './components/immunoassay'
 
 
 Vue.use(Router)
@@ -30,6 +31,10 @@ export default new Router({
     {
       path:'/ecg',
       component:Ecg
+    },
+    {
+      path:'/immunoassay',
+      component:Immunoassay
     }
   ]
 })
