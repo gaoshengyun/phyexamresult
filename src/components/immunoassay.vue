@@ -39,15 +39,36 @@
         <td>{{item.units}}</td>
       </tr>
     </table>
+
+    <h1>癌指标筛查</h1>
+    <table>
+      <tr>
+        <th>简称</th>
+        <th>项目</th>
+        <th>结果</th>
+        <th>提示</th>
+        <th>参考值</th>
+        <th>单位</th>
+      </tr>
+      <tr v-for="(item, index) in result3" :key="item.id">
+        <td>{{item.abbreviation}}</td>
+        <td>{{item.name}}</td>
+        <td>{{item.result}}</td>
+        <td><strong>{{item.hint}}</strong></td>
+        <td>{{item.reference}}</td>
+        <td>{{item.units}}</td>
+      </tr>
+    </table>
   </div>
 </template>
 <script>
-import {result1,result2} from '../mockdata/immunoassay.js'
+import {result1,result2,result3} from '../mockdata/immunoassay.js'
 export default {
   data() {
     return {
       result1,
-      result2
+      result2,
+      result3
     }
   },
 }
