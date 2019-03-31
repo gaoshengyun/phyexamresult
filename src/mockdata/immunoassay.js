@@ -175,4 +175,70 @@ let result2 = [
   },
 ]
 
-export {result1,result2}
+let result3 = [
+  {
+    id: 1,
+    abbreviation: 'AFP',
+    name: '甲胎蛋白',
+    result: '6.7',
+    hint: '',
+    reference: '0~15',
+    units: 'ng/ml'
+  },
+  {
+    id: 2,
+    abbreviation: 'CEA',
+    name: '癌胚抗原',
+    result: '2.3',
+    hint: '',
+    reference: '0~5',
+    units: 'ng/ml'
+  },
+  {
+    id: 3,
+    abbreviation: 'CA19-9',
+    name: '癌抗原19-9',
+    result: '2.1',
+    hint: '',
+    reference: '0.1~27',
+    units: 'U/ml'
+  },
+  {
+    id: 4,
+    abbreviation: 'CA72-4',
+    name: '癌抗原72-4',
+    result: '0.5',
+    hint: '',
+    reference: '0.1~7',
+    units: 'U/ml'
+  },
+  {
+    id: 5,
+    abbreviation: 'CA50',
+    name: '癌抗原50',
+    result: '3.3',
+    hint: '',
+    reference: '0~20',
+    units: 'U/ml'
+  },
+  {
+    id: 6,
+    abbreviation: 'CYFRA21-1',
+    name: '非小细胞肺癌相关抗原',
+    result: '1.3',
+    hint: '',
+    reference: '0.10～4',
+    units: 'ng/ml'
+  },
+  {
+    id: 7,
+    abbreviation: 'TSGF',
+    name: '肿瘤相关物质',
+    result: '阴性',
+    hint: '',
+    reference: '<64',
+    units: 'U/ml'
+  },
+]
+
+export {result1,result2,result3}
