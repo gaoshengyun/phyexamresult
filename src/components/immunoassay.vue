@@ -3,6 +3,9 @@
     <h1>尿常规十一项</h1>
     <table>
       <tr>
+        <th class="info" colspan="6">姓名:高胜云 &nbsp;&nbsp;&nbsp;性别:男 &nbsp;&nbsp;&nbsp; 年龄:35 &nbsp;&nbsp;&nbsp;送检日期:2019-03-28</th>
+      </tr>
+      <tr>
         <th>简称</th>
         <th>项目</th>
         <th>结果</th>
@@ -18,10 +21,18 @@
         <td>{{item.reference}}</td>
         <td>{{item.units}}</td>
       </tr>
+      <tr>
+        <th class="info" colspan="3">体检执行编号:ITSY9088465812</th>
+        <th class="info" colspan="3">尿常规执行编号:ITSY-PPL-195706381</th>
+      </tr>
     </table>
+    <div class="tips">* 根据体检执行编号和血清检查执行编号可追溯检验医师相关信息及打印原始报告单据</div>
 
     <h1>常规便检</h1>
     <table>
+      <tr>
+        <th class="info" colspan="6">姓名:高胜云 &nbsp;&nbsp;&nbsp;性别:男 &nbsp;&nbsp;&nbsp; 年龄:35 &nbsp;&nbsp;&nbsp;送检日期:2019-03-28</th>
+      </tr>
       <tr>
         <th>简称</th>
         <th>项目</th>
@@ -38,10 +49,18 @@
         <td>{{item.reference}}</td>
         <td>{{item.units}}</td>
       </tr>
+      <tr>
+        <th class="info" colspan="3">体检执行编号:ITSY9088465812</th>
+        <th class="info" colspan="3">常规便检执行编号:ITSY-PPS-876448093</th>
+      </tr>
     </table>
+    <div class="tips">* 根据体检执行编号和血清检查执行编号可追溯检验医师相关信息及打印原始报告单据</div>
 
     <h1>癌指标筛查</h1>
     <table>
+      <tr>
+        <th class="info" colspan="6">姓名:高胜云 &nbsp;&nbsp;&nbsp;性别:男 &nbsp;&nbsp;&nbsp; 年龄:35 &nbsp;&nbsp;&nbsp;送检日期:2019-03-28</th>
+      </tr>
       <tr>
         <th>简称</th>
         <th>项目</th>
@@ -58,7 +77,12 @@
         <td>{{item.reference}}</td>
         <td>{{item.units}}</td>
       </tr>
+      <tr>
+        <th class="info" colspan="3">体检执行编号:ITSY9088465812</th>
+        <th class="info" colspan="3">癌指标筛查执行编号:ITSY-CAN-315891536</th>
+      </tr>
     </table>
+    <div class="tips">* 根据体检执行编号和血清检查执行编号可追溯检验医师相关信息及打印原始报告单据</div>
   </div>
 </template>
 <script>
@@ -83,6 +107,11 @@ export default {
     border-bottom: 1px solid #000;
     th{
       border: 1px solid #000;
+      &.info{
+        text-align: left;
+        padding-left: 10px;
+        height: 30px;
+      }
     }
     td{
       text-align: left;
@@ -93,5 +122,11 @@ export default {
         font-weight: bold;
       }
     }
+  }
+  .tips{
+    text-align: left;
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px;
   }
 </style>
