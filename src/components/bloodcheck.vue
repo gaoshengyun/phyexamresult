@@ -81,7 +81,7 @@
       </tr>
       <tr>
         <th class="info" colspan="3">体检执行编号:ITSY9088465812</th>
-        <th class="info" colspan="3">血清检查执行编号:ITSY-BBC-2335337790</th>
+        <th class="info" colspan="3">全血检查执行编号:ITSY-BBC-2335337790</th>
       </tr>
     </table>
     <div class="tips">* 根据体检执行编号和血清检查执行编号可追溯检验医师相关信息及打印原始报告单据</div>
@@ -109,7 +109,7 @@
       </tr>
       <tr>
         <th class="info" colspan="3">体检执行编号:ITSY9088465812</th>
-        <th class="info" colspan="3">血清检查执行编号:ITSY-BBC-233697033</th>
+        <th class="info" colspan="3">全血检查执行编号:ITSY-BBC-233697033</th>
       </tr>
     </table>
     <div class="tips">* 根据体检执行编号和血清检查执行编号可追溯检验医师相关信息及打印原始报告单据</div>
