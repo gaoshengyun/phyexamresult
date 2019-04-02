@@ -3,6 +3,9 @@
     <h1>心电图检查</h1>
     <table>
       <tr>
+        <th class="info" colspan="6">姓名:高胜云 &nbsp;&nbsp;&nbsp;性别:男 &nbsp;&nbsp;&nbsp; 年龄:35 &nbsp;&nbsp;&nbsp;检查日期:2019-03-28</th>
+      </tr>
+      <tr>
         <th>项目</th>
         <th>实测</th>
         <th>正常值</th>
@@ -43,6 +46,8 @@
         <td>60~100</td>
       </tr>
     </table>
+    <div class="serialNumber">体检执行编号:ITSY9088465812 超声波执行编号:ITSY-ECG-41879714</div>
+    <div class="tips">* 根据体检执行编号和血清检查执行编号可追溯检验医师相关信息及打印原始报告单据</div>
   </div>
 </template>
 <script>
@@ -58,10 +63,21 @@ export default {
     border-spacing: 0;
     th,td{
       border: 1px solid #000;
+      &.info{
+        text-align: left;
+        padding-left: 10px;
+        height: 30px;
+      }
     }
     td{
       text-align: left;
       padding-left: 20px;
     }
+  }
+  .tips,.serialNumber{
+    text-align: left;
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px;
   }
 </style>
