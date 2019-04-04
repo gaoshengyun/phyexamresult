@@ -229,7 +229,7 @@ let list2 = [{
     id: 7,
     abbreviation: 'TG',
     name: '甘油三酯',
-    result: '2.3',
+    result: '1.8',
     hint: '↑',
     reference: '0.45~1.69',
     units: 'mmol//L'
@@ -274,7 +274,7 @@ let list2 = [{
     id: 12,
     abbreviation: 'NEFA',
     name: '游离脂肪酸',
-    result: '1012.7',
+    result: '930.7',
     hint: '↑',
     reference: '135.0~808.0',
     units: 'umol/L'
