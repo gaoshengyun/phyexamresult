@@ -4,7 +4,7 @@ let result1 = [
     abbreviation: 'U-LEU',
     name: '尿白细胞',
     result: '6',
-    hint: '',
+    hint: '↑',
     reference: '<5',
     units: ''
   },
